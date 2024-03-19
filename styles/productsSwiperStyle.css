@@ -1,0 +1,35 @@
+.swiper.products-swiper {
+    position: relative !important;
+    width: 100%;
+    height: 83vh;
+}
+.swiper-slide.products-swiper-slide {
+    width: 322px;
+    height: 446px;
+}
+
+.swiper-slide.products-swiper-slide img {
+    width: 100%;
+    height: 446px;
+    filter: brightness(80%) contrast(250%);
+}
+.swiper-slide.products-swiper-slide p {
+    position: absolute;
+    bottom: 26px;
+    left: 30px;
+    color: var(--white-color);
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.swiper-scrollbar.products-swiper-scrollbar {
+    position: absolute;
+    bottom: 20%;
+    background: rgb(188, 189, 192) !important;
+}
+
+.swiper-scrollbar.products-swiper-scrollbar .swiper-scrollbar-drag {
+    background: rgb(87, 88, 90) !important;
+}
+
+
